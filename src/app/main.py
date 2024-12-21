@@ -21,6 +21,7 @@ image = (
     .run_function(download_model)
 )
 
+
 # Define Modal App
 app = modal.App("sd-demo", image=image)
 
